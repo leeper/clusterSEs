@@ -4,8 +4,8 @@
 \alias{cluster.wild.ivreg}
 \title{Wild Cluster Bootstrapped p-Values For For Regression With Instrumental Variables}
 \usage{
-cluster.wild.ivreg(mod, dat, cluster, ci.level = 0.95, impose.null = TRUE,
-  boot.reps = 1000, report = TRUE, prog.bar = TRUE)
+\method{cluster.wild}{ivreg}(mod, dat, cluster, ci.level = 0.95,
+  impose.null = TRUE, boot.reps = 1000, report = TRUE, prog.bar = TRUE)
 }
 \arguments{
 \item{mod}{A linear (identity link) model estimated using \code{ivreg}.}

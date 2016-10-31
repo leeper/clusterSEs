@@ -4,7 +4,7 @@
 \alias{cluster.bs.plm}
 \title{Pairs Cluster Bootstrapped p-Values For PLM}
 \usage{
-cluster.bs.plm(mod, dat, cluster = "group", ci.level = 0.95,
+\method{cluster.bs}{plm}(mod, dat, cluster = "group", ci.level = 0.95,
   boot.reps = 1000, cluster.se = TRUE, report = TRUE, prog.bar = TRUE)
 }
 \arguments{

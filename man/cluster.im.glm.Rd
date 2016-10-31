@@ -4,7 +4,7 @@
 \alias{cluster.im.glm}
 \title{Cluster-Adjusted Confidence Intervals And p-Values For GLM}
 \usage{
-cluster.im.glm(mod, dat, cluster, ci.level = 0.95, report = TRUE,
+\method{cluster.im}{glm}(mod, dat, cluster, ci.level = 0.95, report = TRUE,
   drop = FALSE, truncate = FALSE)
 }
 \arguments{

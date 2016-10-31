@@ -4,8 +4,9 @@
 \alias{cluster.bs.mlogit}
 \title{Pairs Cluster Bootstrapped p-Values For mlogit}
 \usage{
-cluster.bs.mlogit(mod, dat, cluster, ci.level = 0.95, boot.reps = 1000,
-  cluster.se = TRUE, report = TRUE, prog.bar = TRUE, unique.id = TRUE)
+\method{cluster.bs}{mlogit}(mod, dat, cluster, ci.level = 0.95,
+  boot.reps = 1000, cluster.se = TRUE, report = TRUE, prog.bar = TRUE,
+  unique.id = TRUE)
 }
 \arguments{
 \item{mod}{A model estimated using \code{mlogit}.}

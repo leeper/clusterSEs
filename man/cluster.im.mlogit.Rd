@@ -4,8 +4,8 @@
 \alias{cluster.im.mlogit}
 \title{Cluster-Adjusted Confidence Intervals And p-Values For mlogit}
 \usage{
-cluster.im.mlogit(mod, dat, cluster, ci.level = 0.95, report = TRUE,
-  truncate = FALSE)
+\method{cluster.im}{mlogit}(mod, dat, cluster, ci.level = 0.95,
+  report = TRUE, truncate = FALSE)
 }
 \arguments{
 \item{mod}{A model estimated using \code{mlogit}.}
